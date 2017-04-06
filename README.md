@@ -1,2 +1,4 @@
 # resume
-My Resume
+This is my resume.
+
+Compile it using pdftex.
