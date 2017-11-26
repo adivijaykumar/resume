@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1511708713 "main.tex" "/home/aditya/Documents/git/resume/main.pdf" "main" 1511708714
+["pdflatex"] 1511709447 "main.tex" "/home/aditya/Documents/git/resume/main.pdf" "main" 1511709448
   "/etc/texmf/web2c/texmf.cnf" 1464959750 1101 af7716885e081ab43982cab7b4672c1a ""
   "/home/aditya/Documents/git/resume/main.aux" 1502083873 8 a94a2480d3289e625eea47cd1b285758 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -53,11 +53,11 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1464960764 3861468 e497ebf2fe4a500044a7b8794102632e ""
   "enumitem.sty" 1491555580 42666 6fa770e3485520a6a5f2ea7d259c8f8d ""
   "main.aux" 1502083873 8 a94a2480d3289e625eea47cd1b285758 ""
-  "main.tex" 1511708712 9746 f6da829fb99b4ccbfe76cc73a71a41e5 ""
+  "main.tex" 1511709447 10015 a0d08c37df8c2ca66a6b96b0c6af868a ""
   "res.cls" 1491555580 25071 5219690551826615ce16067e080612e1 ""
   "wrapfig.sty" 1491555580 22770 857b1de298f5c55d44d6211a540b3853 ""
   (generated)
   "main.log"
-  "/home/aditya/Documents/git/resume/main.log"
   "main.pdf"
   "/home/aditya/Documents/git/resume/main.pdf"
+  "/home/aditya/Documents/git/resume/main.log"
