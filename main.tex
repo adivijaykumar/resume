@@ -10,14 +10,18 @@
 \parsep=0in
 \newsectionwidth{1in}
 \usepackage[pdftex]{graphicx}
+\usepackage{etaremune}
 \usepackage{enumitem}
 \usepackage{wrapfig}
+\usepackage[dvipsnames]{xcolor}
 \usepackage{helvet}
+\usepackage{comment}
+
 \usepackage[colorlinks = true,
-            linkcolor = blue,
-            urlcolor  = blue,
-            citecolor = blue,
-            anchorcolor = blue]{hyperref}
+            linkcolor = BrickRed,
+            urlcolor  = BrickRed,
+            citecolor = BrickRed,
+            anchorcolor = BrickRed]{hyperref}
 \setlength{\textwidth}{6.5in} % Text width of the document
 \setlength{\textheight}{720pt}
 
@@ -28,7 +32,7 @@
 %----------------------------------------------------------------------------------------\
 \begin{center}
     \hspace{-\hoffset}
-    \huge \textbf{Aditya Vijaykumar}
+    \huge {\textcolor{black}{Aditya Vijaykumar}}
 \end{center}
 
 \vspace{-5mm}
@@ -45,7 +49,7 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 \section{Reserach Interests}
-Gravitational Wave Astronomy and Astrophysics, Tests of General Relativity and Cosmology 
+Gravitational Wave Astronomy and Astrophysics, Tests of General Relativity and Cosmology, Scientific Computing 
 \\
 \section{Education}
 \textbf{\href{https://www.icts.res.in/}{International Centre for Theoretical Sciences (ICTS-TIFR), Bengaluru}}\\
@@ -53,12 +57,6 @@ Gravitational Wave Astronomy and Astrophysics, Tests of General Relativity and C
 
 \textbf{\href{http://www.bits-pilani.ac.in/}{Birla Institute of Technology and Science (BITS), Pilani}}\\
 \textbf{M.Sc. (Hons.) Physics and B.E. (Hons.) Mechanical Engineering} \hfill 2013 - 2018
-%\begin{itemize}
- %\item CGPA of \textbf{9.47}/10 (Dec 2015)
-%\end{itemize}
-
-%\textbf{High School} - %\textbf{\href{http://www.stvincentspune.com/}{St. Vincent's High School, Pune}} (Maharashtra HSC) \hfill 2011 - 2013 \\
-%\textbf{Secondary School} - \textbf{\href{http://www.rosaryedu.org}{Rosary High School, Pune}} (Maharashtra SSC) \hfill 1999 - 2011
 
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE SECTION
@@ -94,6 +92,7 @@ Gravitational Wave Astronomy and Astrophysics, Tests of General Relativity and C
 \emph{Mentored by \href{http://www.ncra.tifr.res.in/ncra/people/academic/ncra-faculty/Yashwant_Gupta}{Prof. Yashwant Gupta}} \hfill May 2015 - July 2015\\
 \textit{Topic - Testing and Debugging the Transient Detection Pipeline of GMRT}
 
+\begin{comment}
 %\section{Research Experience}
 
 %\textbf{Visiting Student (Masters Thesis)}
@@ -124,6 +123,7 @@ Gravitational Wave Astronomy and Astrophysics, Tests of General Relativity and C
 %----------------------------------------------------------------------------------------
 %	RELEVANT COURSE SECTION
 %----------------------------------------------------------------------------------------
+
 \section{Projects}
 \begin{itemize}[leftmargin=*]
 	\item \textbf{Aditya Vijaykumar}, MV Saketh, Sumit Kumar, Parameswaran Ajith, Tirthankar Roy Choudhury.\\
@@ -139,8 +139,36 @@ Gravitational Wave Astronomy and Astrophysics, Tests of General Relativity and C
 	\\
 	\item Apratim Ganguly, \textbf{Aditya Vijaykumar}, Abhirup Ghosh, Parameswaran Ajith.\\	
 	\textit{Probing General Relativity from the consistency of inspiral and merger-ringdown of Binary Black Holes}
-	
+
+
 \end{itemize}
+
+
+
+\end{comment}
+
+\section{Publications}
+\begin{etaremune}
+	\begin{comment}	
+	\item 
+	\textbf{Aditya Vijaykumar}, M.~V.~S.~Saketh, Sumit Kumar, Parameswaran Ajith, Tirthankar Roy Choudhury\\
+	\textit{Probing the large scale structure using gravitational wave observations of binary black holes},\\
+	Submitted to \textit{Physical Review Letters}, \href{https://arxiv.org/abs/1907.10121}{arXiv:2004.xxxx}. 
+	\end{comment}
+	\item 
+	\textbf{Aditya Vijaykumar}, Shasvath J. Kapadia, Parameswaran Ajith\\
+	\textit{Constraints on the time variation of the gravitational constant using gravitational wave observations of binary neutron stars},\\
+	To be submitted to \textit{Physical Review Letters}, \href{https://arxiv.org/abs/2003.12832}{arXiv:2003.12832}. 
+	
+	\item 
+	P.~Virtanen {\it et al.} (incl. \textbf{Aditya Vijaykumar} as \textit{SciPy 1.0 Contributor})\\
+	\textit{SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python},\\
+	\href{https://www.nature.com/articles/s41592-019-0686-2}{\textit{Nat Methods} 17, 261–272 (2020)},
+	\href{https://arxiv.org/abs/1907.10121}{arXiv:1907.10121}.
+
+\end{etaremune}
+
+
 \section{Conferences, Schools and Talks}
 \begin{itemize}[leftmargin=*]
  \item Poster titled \textit{Constraints on Black Hole Mimickers using GWTC-1} at \textbf{ICTS In-house Symposium}, ICTS, Bengaluru, India, February 2020
@@ -156,7 +184,7 @@ Gravitational Wave Astronomy and Astrophysics, Tests of General Relativity and C
  \item Participant, \textbf{ICTS Summer School on Gravitational Wave Astronomy}, ICTS, Bengaluru, India, July 2018
  \item Participant, \textbf{ICTS Summer School on Gravitational Wave Astronomy}, ICTS, Bengaluru, India, July 2017
  \item Talk titled \textit{Gravitational Lensing from Orbiting Binary} at the \textbf{Paper Presentation competition of APOGEE 2017}, BITS Pilani, India (\textit{First runner-up})
- \end{itemize}
+\end{itemize}
 %----------------------------------------------------------------------------------------
 %	TECHNICAL SKILLS SECTION
 %----------------------------------------------------------------------------------------
@@ -165,20 +193,7 @@ Gravitational Wave Astronomy and Astrophysics, Tests of General Relativity and C
 \textbf{Softwares} - MATLAB, Mathematica \\
 \textbf{Tools/Frameworks} - \LaTeX, Git
 
-%---------------------------------------------------------------------------------------
-%	PUBLICATION SECTION
-%---------------------------------------------------------------------------------------
 
-%\section{Publications}
-%\begin{itemize}[leftmargin=*]
-%\item Devanshu J, \textbf{Ashish K}, Rakshit S, Sameer S, ``Recommendation Techniques for Adaptive E-learning'', Advances in Computer Science and Information Technology, vol. 2, No. 1, 2015. \href{https://drive.google.com/file/d/0B6A-3_6rwie9bS1OaFdzbW9BZXM/view?usp=sharing}{view here}
-%\item \textbf{Ashish Kedia} and Anusha Prakash, "Data Synchronization on Android Clients", International Conference on Communication Software and Networks, June 6-7$^{th}$, 2015, Chengdu, China. \href{http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7296156}{view here}
-%\end{itemize}
-
-
-%----------------------------------------------------------------------------------------
-%	ACHIEVEMENT SECTION
-%----------------------------------------------------------------------------------------
 
 \section{Scores and Awards}
 \begin{itemize}[leftmargin=*]
@@ -189,15 +204,6 @@ Gravitational Wave Astronomy and Astrophysics, Tests of General Relativity and C
  \item Recepient of the \href{http://www.inspire-dst.gov.in/scholarship.html}{INSPIRE-DST Scholarship for Higher Education} for the period 2013 to 2018
 \end{itemize}
 
-%----------------------------------------------------------------------------------------
-%	HOBBIES SECTION
-%----------------------------------------------------------------------------------------
-
-%\section{Hobbies}
-%Blogging, Reading, Star Gazing, Editing Wiki Pages, Solving Puzzle
-
-%\section{More}
-%Please visit \href{https://adivijaykumar.github.io/academic/}{https://adivijaykumar.github.io/academic/}
 
 \end{resume}
 \end{document}
