@@ -13,17 +13,28 @@
 \usepackage{etaremune}
 \usepackage{enumitem}
 \usepackage{wrapfig}
+\usepackage{datetime}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{helvet}
 \usepackage{comment}
-
+\usepackage{lastpage}
 \usepackage[colorlinks = true,
-            linkcolor = BrickRed,
+            linkcolor = Black,
             urlcolor  = BrickRed,
             citecolor = BrickRed,
             anchorcolor = BrickRed]{hyperref}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\headheight 0pt
+\footskip -10pt
+\renewcommand{\headrulewidth}{0.0pt}
+% \renewcommand{\footrulewidth}{0pt}
+% \renewcommand\footrule{\moveleft\hoffset\vbox{\hrule width 19cm height 0.5pt}}
+\cfoot{ \textcolor{black}{\thepage \ of \pageref{LastPage}}}
+
 \setlength{\textwidth}{6.5in} % Text width of the document
-\setlength{\textheight}{720pt}
+\setlength{\textheight}{710pt}
 
 \begin{document}
 
@@ -34,7 +45,6 @@
     \hspace{-\hoffset}
     \huge {\textcolor{black}{\textbf{Aditya Vijaykumar}}}
 \end{center}
-
 \vspace{-5mm}
 \moveleft\hoffset\vbox{\hrule width 19cm height 0.5pt}
 \vspace{-8mm}
@@ -147,20 +157,41 @@ Gravitational Wave Astronomy and Astrophysics, Tests of General Relativity and C
 
 \end{comment}
 
+\section{Teaching}
+\begin{itemize}[leftmargin=*]
+	\item  Participant and Tutor for the \textit{Astrophysical Stochastic GW Foreground} mini-course, \textbf{ICTS Summer School on Gravitational Wave Astronomy}, ICTS, Bengaluru, India, July 2021 (Online)
+	\item Co-organizer and tutor, \textbf{ICTS Workshop on Parameter Estimation with bilby}, ICTS, Bengaluru, India, August 2020 (Online)
+	\item Tutor, \textbf{Light and Beyond---Summer Course for Undergraduate Students by Prof. Rajaram Nityananda}, June 2020 (Online)
+	\item Tutor, \textbf{LIGO-Virgo Collaboration Gravitational-Wave Open Data Workshop \#3}, May 2020 (Online)
+	\item Participant and Tutor for the \textit{Numerical Hydrodynamics} mini-course, \textbf{ICTS Summer School on Gravitational Wave Astronomy}, ICTS, Bengaluru, India, May-June 2020 (Online)
+	\item Participant and Tutor for the \textit{Advanced General Relativity} mini-course, \textbf{ICTS Summer School on Gravitational Wave Astronomy}, ICTS, Bengaluru, India, July 2019
+\end{itemize}
+
+
+\section{Mentorship}
+	\begin{itemize}
+		\item Kruthi Krishna (IISc $ \rightarrow $ Radboud University) \hfill Sep 2020 - \textit{Present}
+		\item Harsh Narola (IISER, Tirupati $ \rightarrow $ Utrecht University) \hfill Sep 2020 - \textit{Present}
+	\end{itemize}
 \section{Papers}
 \begin{etaremune}
 
+	\item 
+	Sumit Kumar, \textbf{Aditya Vijaykumar}, Alexander H. Nitz\\
+	\textit{Detecting Baryon Acoustic Oscillations with third generation gravitational wave observatories},\\
+	Submitted to \textit{The Astrophysical Journal}, \href{https://arxiv.org/abs/2110.06152}{arXiv:2110.06152}.\\
+
 	\item Saleem et al. (including \textbf{Aditya Vijaykumar})\\
 	\textit{The Science Case for LIGO-India}\\
-	\href{https://arxiv.org/abs/2105.01716}{arXiv:2105.01716}.
+	Submitted to \textit{Classical and Quantum Gravity}, \href{https://arxiv.org/abs/2105.01716}{arXiv:2105.01716}.\\
 
 	\item Abbott et al. (LIGO Scientific and Virgo Collaborations, including \textbf{Aditya Vijaykumar})\\
 	\textit{Tests of General Relativity with Binary Black Holes from the second LIGO-Virgo Gravitational-Wave Transient Catalog.}\\
-	\href{https://arxiv.org/abs/2010.14529}{arXiv:2010.14529}.	
+	\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.103.122002}{\textit{Phys. Rev. D} 103 (2021) 12, 122002}, \href{https://arxiv.org/abs/2010.14529}{arXiv:2010.14529}.\\
 	
 	\item Abbott et al. (LIGO Scientific and Virgo Collaborations, including \textbf{Aditya Vijaykumar})\\
-	\textit{	GWTC-2: Compact Binary Coalescences Observed by LIGO and Virgo During the First Half of the Third Observing Run}.\\
-	\href{https://arxiv.org/abs/2010.14527}{arXiv:2010.14527}.
+	\textit{GWTC-2: Compact Binary Coalescences Observed by LIGO and Virgo During the First Half of the Third Observing Run}.\\
+	\href{https://journals.aps.org/prx/abstract/10.1103/PhysRevX.11.021053}{\textit{Phys. Rev. X} 11 (2021) 021053}, \href{https://arxiv.org/abs/2010.14527}{arXiv:2010.14527}.\\
 	
 	\item 
 	\textbf{Aditya Vijaykumar}, M.~V.~S.~Saketh, Sumit Kumar, Parameswaran Ajith, Tirthankar Roy Choudhury\\
@@ -178,42 +209,42 @@ Gravitational Wave Astronomy and Astrophysics, Tests of General Relativity and C
 	P.~Virtanen {\it et al.} (including \textbf{Aditya Vijaykumar} as \textit{SciPy 1.0 Contributor})\\
 	\textit{SciPy 1.0--Fundamental Algorithms for Scientific Computing in Python},\\
 	\href{https://www.nature.com/articles/s41592-019-0686-2}{\textit{Nat Methods} 17, 261–272 (2020)},
-	\href{https://arxiv.org/abs/1907.10121}{arXiv:1907.10121}.
+	\href{https://arxiv.org/abs/1907.10121}{arXiv:1907.10121}.\\
+
 \end{etaremune}
 
-\section{Seminars and Invited Talks}
+\section{Seminars and Talks}
 \begin{itemize}[leftmargin=*]
-	 \item \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{\textit{Instituut-Lorentz} for Theoretical Physics, Leiden University}, Leiden, Netherlands, June 2020 (Online)
-	 \item \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{The Inter-University Centre for Astronomy and Astrophysics (IUCAA)}, Pune, India, September 2019
-	 \item \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{Max Planck Institute for Gravitational Physics}, Hannover, Germany, June 2019
+	 \item \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{\textit{Instituut-Lorentz} for Theoretical Physics, Leiden University}, Leiden, Netherlands, June 2020 (Online Invited Seminar)
+	 \item \textit{Constraints on Black Hole Mimickers using GWTC-1} at \textbf{ICTS In-house Symposium}, ICTS, Bengaluru, India, February 2020 (Contributed Poster)
+	 \item \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{ICTS In-house Symposium}, ICTS, Bengaluru, India, February 2020 (Contributed Talk)
+	 \item \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{International Conference on Gravitation \& Cosmology}, IISER, Mohali, India, December, 2019 (Contributed Talk)
+	 \item \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{The Inter-University Centre for Astronomy and Astrophysics (IUCAA)}, Pune, India, September 2019 (Invited Talk)
+	 \item \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{Max Planck Institute for Gravitational Physics}, Hannover, Germany, June 2019 (Invited Talk)
+	\item \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{GR22 and Amaldi13}, Valencia, Spain, July 2019 (Contributed Talk)
+	\item \textit{Gravitational Lensing from Orbiting Binary} at the \textbf{Paper Presentation competition of APOGEE 2017}, BITS Pilani, India (\textit{Contributed Talk, First runner-up})
+
 \end{itemize}
 
-\section{Conferences, and other Meetings}
+\section{Other Conferences and Meetings}
 \begin{itemize}[leftmargin=*]
 	\item Semester Participant, \textbf{Advances in Computational Relativity}, ICERM, Brown University, USA. September 2020 - December 2020 (Online)
-	\item Poster titled \textit{Constraints on Black Hole Mimickers using GWTC-1} at \textbf{ICTS In-house Symposium}, ICTS, Bengaluru, India, February 2020
-	\item Talk titled \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{ICTS In-house Symposium}, ICTS, Bengaluru, India, February 2020
 	\item	Participant, \textbf{Discussion Meeting - Astrophysics of Supermassive Black Holes}, ICTS, Bengaluru, India, December 2019
-	\item Talk titled \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{International Conference on Gravitation \& Cosmology}, IISER, Mohali, India, December, 2019
 	\item Participant, \textbf{Discussion Meeting - Future of Gravitational Wave Astronomy}, ICTS, Bengaluru, India, August 2019
-
-	\item Talk titled \textit{Probing Large Scale Structure using Binary Black Hole Observations} at \textbf{GR22 and Amaldi13}, Valencia, Spain, July 2019
-	
-	\item Talk titled \textit{Gravitational Lensing from Orbiting Binary} at the \textbf{Paper Presentation competition of APOGEE 2017}, BITS Pilani, India (\textit{First runner-up})
-\end{itemize}
-\section{Schools and Tutoring}
-\begin{itemize}[leftmargin=*]
-	\item Co-organizer and tutor, \textbf{ICTS Workshop on Parameter Estimation with bilby}, ICTS, Bengaluru, India, August 2020 (Online)
-	\item Tutor, \textbf{LIGO-Virgo Collaboration Gravitational-Wave Open Data Workshop \#3}, May 2020 (Online)
-	\item Participant and Tutor for the \textit{Numerical Hydrodynamics} mini-course, \textbf{ICTS Summer School on Gravitational Wave Astronomy}, ICTS, Bengaluru, India, May-June 2020 (Online)
-	\item Participant and Tutor for the \textit{Advanced General Relativity} mini-course, \textbf{ICTS Summer School on Gravitational Wave Astronomy}, ICTS, Bengaluru, India, July 2019
 	\item Participant, \textbf{ICTS Summer School on Gravitational Wave Astronomy}, ICTS, Bengaluru, India, July 2018
 	\item Participant, \textbf{ICTS Summer School on Gravitational Wave Astronomy}, ICTS, Bengaluru, India, July 2017
+
 \end{itemize}
-\section{Outreach Talks}
+\section{Outreach}
 \begin{itemize}[leftmargin=*]
-	\item  \textit{The Whats, Whys and Hows of Gravitational-wave Astronomy}, \textbf{BMS College of Engineering, Bengaluru}, November 2019
-	\item \textit{Gravitational Waves - A New Tool for Cosmology!} at \textbf{Vigyan Samagam}, Visvesvaraya Industrial and Technological Museum, Bengaluru, India, August 2019
+	\item Moderated a discussion with Prof. Smitha Vishveshwara on her collaborative science theatre project \textit{Quantum Voyages} as a part of \href{https://cosmic-zoom.in/}{Cosmic Zoom} Online Exhibition, April 2021
+	\item Articles on the \textbf{ICTS blog}:
+	\begin{enumerate}
+		\item \href{https://blog.icts.res.in/blog/conversation-icts-scientists-studying-indian-monsoon}{A Conversation with ICTS Scientists Studying the Indian Monsoon}, November 2019
+		\item \href{https://blog.icts.res.in/blog/summer-school-gravitational-wave-astronomy}{Summer School on Gravitational Wave Astronomy}, November 2019
+	\end{enumerate}	
+	\item Talk titled \textit{The Whats, Whys and Hows of Gravitational-wave Astronomy}, \textbf{BMS College of Engineering, Bengaluru}, November 2019
+	\item Talk titled \textit{Gravitational Waves - A New Tool for Cosmology!} at \textbf{Vigyan Samagam}, Visvesvaraya Industrial and Technological Museum, Bengaluru, India, August 2019
 
 \end{itemize}
 
@@ -232,9 +263,10 @@ Gravitational Wave Astronomy and Astrophysics, Tests of General Relativity and C
 
 \section{Scores and Awards}
 \begin{itemize}[leftmargin=*]
- \item Scored 960/990 on the \href{https://www.ets.org/gre/subject/about/content/physics}{Subject GRE in Physics}, October 2017
+ \item ICTS Graduate Fellowship 2018-2023
  \item Secured all-India rank 21 in the \href{https://www.jest.org.in/}{Joint Entrance Screening Test (JEST)}, 2018 for admission into Physics PhD programmes in India
  \item Awarded the \href{https://www.icts.res.in/academic/summer-research-program}{ICTS S.N. Bhatt Memorial Excellence Fellowship}, 2018
+ \item Scored 960/990 on the \href{https://www.ets.org/gre/subject/about/content/physics}{Subject GRE in Physics}, October 2017
  \item Selected for the \href{http://web-japps.ias.ac.in:8080/fellowship2018/}{Summer Research Fellowship} of the Indian Academy of Sciences in 2016
  \item Recepient of the \href{http://www.inspire-dst.gov.in/scholarship.html}{INSPIRE-DST Scholarship for Higher Education} for the period 2013 to 2018
 \end{itemize}
